@@ -59,7 +59,6 @@ int main() {
 	
 	std::regex r("(mul\\(\\d{1,3},\\d{1,3}\\))");
 	std::smatch m;
-	std::regex_search(mem_lines[0], m, r);
 	
 	std::vector<std::string> operations;
 	long int res = 0;
